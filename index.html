@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Wong's portfolio">
+    <meta name="keywords" content="superwch1, wong chun hong, chung hong wong, portfolio, software engineer, developer, programming">
+    <meta name="author" content="John Wong">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.superwch1.com/">
+    <meta property="og:title" content="John Wong's portfolio">
+    <meta property="og:description" content="A brief description of your webpage">
+    <meta property="og:image" content="https://yourwebsite.com/image.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yourwebsite.com/">
+    <meta name="twitter:title" content="Your Website Title">
+    <meta name="twitter:description" content="A brief description of your webpage">
+    <meta name="twitter:image" content="https://yourwebsite.com/image.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <title>Your Website Title</title>
+    <style>
+        body {
+            overflow-x: hidden;
+            max-width: 100vw;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        a {
+            font-style: italic;
+        }
+
+        /*  devices */
+        @media only screen and (max-width: 768px) {
+            #header {
+                margin-left: 8.40vw;
+                margin-top: 8.40vw;
+                display: flex;
+                flex-direction: row;
+                gap: 6.11vw;                
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .header_nav {
+                font-size: 3.56vw;
+                color: #FFF4F4;
+                font-weight: bold;
+                font-family: "Ubuntu", sans-serif;
+                text-decoration: none;
+            }
+
+            #section_container {
+                margin-top: 18.32vw;
+                display: flex;
+                flex-direction: column;
+                gap: 45.80vw;
+                align-items: center;
+            }
+
+            #introduction {
+                width: 78.12vw;
+                height: 106.87vw;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                align-items: center;
+                gap: 15.78vw;
+            }
+
+            #introduction_text {
+                width: 78.12vw;
+                height: 19.08vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 3.05vw;
+            }
+
+            #introduction_text_title {
+                font-size: 9.16vw;
+                font-family: "Lobster", sans-serif;
+                color: #FFFFFF;
+            }
+
+            #introduction_text_content {
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+
+            #introduction_image {
+                width: 72.01vw;
+                height: 72.01vw;
+                align-self: flex-end;
+            }
+
+            #introuction_brown_dots {
+                position: absolute;
+                left: 0.51vw;
+                top: 28.50vw;
+                width: 32.14vw;
+                height: 25.45vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_dots {
+                position: absolute;
+                left: 50.89vw;
+                top: 86.77vw;
+                width: 32.14vw;
+                height: 25.45vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_shortrect {
+                position: absolute;
+                left: 0vw;
+                top: 123.16vw;
+                width: 30.53vw;
+                height: 2.54vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_verticalrect {
+                display: none;
+            }
+
+            #about {
+                width: 83.72vw;
+                height: 90.84vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            #about_image {
+                position: absolute;
+                width: 83.72vw;
+                height: 90.84vw;
+                z-index: -1;
+                content:url("/about_card_onedot.png");
+            }
+
+            #about_text {
+                display: flex;
+                width: 71.50vw;
+                align-items: center;
+                flex-direction: column;
+                gap: 6.36vw;
+            }
+
+            #about_text_title {
+                font-size: 9.16vw;
+                font-family: "Lobster", sans-serif;
+                color: #3D4339;
+            }
+
+            #about_text_content {
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #3D4339;
+                font-weight: bold;
+                line-height: 160%;
+            }
+
+            #about_brown_dots {
+                position: absolute;
+                left: 39.95vw;
+                top: -9.67vw;
+                width: 32.14vw;
+                height: 25.45vw;
+                z-index: -1;
+            }
+
+            #skillset {
+                width: 84.22vw;
+                height: 169.97vw;
+                display: flex;
+                flex-direction: column;
+                gap: 6.11vw;
+                position: relative;
+            }
+
+            #skillset_text {
+                width: 81.17vw;
+                height: 15.27vw;
+                background-color: #FFFAEC;
+                border-radius: 6.11vw;
+            }
+
+            #skillset_text_title {  
+                padding-left: 6.11vw;     
+                padding-top: 1.27vw;         
+                font-size: 9.16vw;
+                font-family: "Lobster", sans-serif;
+                color: #3D4339;
+            }
+
+            #skillset_framework_container, #skillset_language_container {
+                width: 84.22vw;
+                display: flex;
+                flex-direction: column;
+                gap: 6vw;
+            }
+
+            #skillset_framework_category_container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 6.3vw;
+            }
+
+            #skillset_framework_title, #skillset_language_title {
+                font-size: 5.09vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+
+            .skillset_framework_category {
+                width: 38.15vw;
+                height: 43.26vw;
+                border-radius: 6.11vw;
+                border-color: #FFFFFF;
+                border-width: 1px;
+                border-style: solid;
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+
+            .skillset_framework_category_title {
+                font-size: 4.07w;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+                margin-top: 6.11vw;
+                margin-left: 6.11vw;
+                margin-bottom: 2.04vw;
+            }
+
+            .skillset_framework_category_content {
+                font-size: 3.56vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                margin-bottom: 1.02vw;
+                margin-left: 6.11vw;
+            }
+
+            .skillset_language_category {
+                display: flex;
+                flex-direction: row;
+                gap: 2.04vw;
+                flex-wrap: wrap;
+            }
+
+            .skillset_language_category_content {
+                color: #FFFFFF;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 15.27vw;
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                padding: 3.05vw;
+            }
+
+            #skillset_brown_dots{
+                position: absolute;
+                left: -7vw;
+                top: -44.12vw;
+                width: 11.02vw;
+                height: 25.45vw; 
+                z-index: -1;                
+            }
+
+            #skillset_rice_dots{
+                position: absolute;
+                left: 78.2vw;
+                top: 178.12vw;
+                width: 12.23vw;
+                height: 25.45vw;
+                z-index: -1;
+            }
+
+            .work {
+                width: 83.97vw;
+                display: flex;
+                flex-direction: column;
+                gap: 6.11vw;
+                position: relative;
+            }
+
+            .work_image {
+                width: 83.72vw;
+                height: 83.72vw;
+            }
+
+            .work_text {
+                width: 83.97vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .work_text_title {
+                font-size: 9.16vw;
+                font-family: "Lobster", sans-serif;
+                color: #FFFFFF;
+            }
+
+            .work_text_description {
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+                margin-top: 6.11vw;
+            }
+
+            .work_text_link {
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                margin-top: 6.11vw;
+            }
+
+            .work_framework_container {
+                display: flex;
+                flex-direction: row;
+                gap: 1.78vw;
+                margin-top: 6.11vw;
+                flex-wrap: wrap;
+            }
+
+            .work_framework {
+                color: #FFFFFF;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 15.23vw;
+                font-size: 4.07vw;
+                font-family: "Ubuntu", sans-serif;
+                padding: 3.05vw;
+            }
+
+            #clipclip_rice_shortrect {
+                position: absolute;
+                width: 12.5vw;
+                height: 1.1vw;
+                left: -6.1vw;
+                top: -4.9vw;
+                overflow: hidden;
+            }
+
+            #clipclip_brown_rect {
+                position: absolute;
+                width: 24.1vw;
+                height: 1.1vw;
+                left: 19.8vw;
+                bottom: -3.2vw;
+            }
+
+            #textpop_rice_shortrect {
+                position: absolute;
+                width: 24.1vw;
+                height: 1.1vw;
+                left: 45.8vw;
+                top: -8.25vw;
+            }
+
+            #textpop_brown_verticalrect {
+                position: absolute;
+                left: -4.4vw;
+                top: 27.5vw;
+                width: 1.7vw;
+                height: 33.7vw;
+                z-index: -1;
+            }
+
+            #contact {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20.8vw;
+                position: relative;
+            }
+
+            #contact_card {
+                width: 40.7vw;
+                height: 24.25vw;
+            }
+
+            #contact_email {
+                position: absolute;
+                top: 12.3vw;
+                left: 19.5vw;
+                font-size: 1.5vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #524428;
+            }
+
+            #contact_linkedin {
+                position: absolute;
+                top: 15.7vw;
+                left: 19.5vw;
+                font-size: 1.5vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #524428;
+            }
+
+            #contact_brown_dots {
+                position: absolute;
+                left: 28.9vw;
+                top: 19.3vw;
+                width: 16vw;
+                height: 12.7vw;
+                z-index: -1; 
+            }
+
+            #contact_top_arrow {
+                position: absolute;
+                left: 60.7vw;
+                top: 33.8vw;
+                width: 3.2vw;
+                height: 3.2vw;
+
+            }
+        }
+
+
+        /* mobile & tablet devices */
+        @media only screen and (min-width: 768px) {
+            #header {
+                margin-left:10.25vw;
+                margin-top: 3.75vw;
+                display: flex;
+                flex-direction: row;
+                gap: 4.2vw;
+            }
+
+            .header_nav {
+                font-size: 1.5vw;
+                color: #FFF4F4;
+                font-weight: bold;
+                font-family: "Ubuntu", sans-serif;
+                text-decoration: none;
+            }
+
+            #section_container {
+                margin-top: 8vw;
+                display: flex;
+                flex-direction: column;
+                gap: 20.8vw;
+                align-items: center;
+            }
+
+            #introduction {
+                width: 79.5vw;
+                height: 36.5vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position: relative;
+            }
+
+            #introduction_text {
+                width: 35.2vw;
+                height: 36.5vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1.3vw;
+            }
+
+            #introduction_text_title {
+                font-size: 4.2vw;
+                font-family: "Lobster", sans-serif;
+                color: #FFFFFF;
+            }
+
+            #introduction_text_content {
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                font-weight: bold;
+            }
+
+            #introduction_image {
+                width: 36.5vw;
+                height: 36.5vw;
+            }
+
+            #introuction_brown_dots {
+                position: absolute;
+                left: 66.25vw;
+                top: -3.25vw;
+                width: 16vw;
+                height: 12.7vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_dots {
+                position: absolute;
+                left: 39.75vw;
+                top: 26.5vw;
+                width: 16vw;
+                height: 12.7vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_shortrect {
+                position: absolute;
+                left: -2.5vw;
+                top: 31.5vw;
+                width: 12.5vw;
+                height: 1.08vw;
+                z-index: -1;
+            }
+
+            #introduction_rice_verticalrect {
+                position: absolute;
+                right: -1.7vw;
+                top: 40vw;
+                width: 1.7vw;
+                height: 29.75vw;
+                z-index: -1;
+            }
+
+            #about {
+                width: 66.3vw;
+                height: 39.1vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            #about_image {
+                position: absolute;
+                width: 66.3vw;
+                height: 39.1vw;
+                z-index: -1;
+                content:url("/about_card_multipledots.png");
+            }
+
+            #about_text {
+                display: flex;
+                width: 48.3vw;
+                align-items: center;
+                flex-direction: column;
+                gap: 3vw;
+            }
+
+            #about_text_title {
+                font-size: 4.2vw;
+                font-family: "Lobster", sans-serif;
+                color: #3D4339;
+            }
+
+            #about_text_content {
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #3D4339;
+                font-weight: bold;
+                line-height: 160%;
+            }
+
+            #about_brown_dots {
+                position: absolute;
+                left: 5.4vw;
+                top: -4.9vw;
+                width: 16vw;
+                height: 12.7vw;
+                z-index: -1;
+            }
+
+            #skillset {
+                width: 64.6vw;
+                height: 43.6vw;
+                display: flex;
+                flex-direction: column;
+                gap: 3.8vw;
+                position: relative;
+            }
+
+            #skillset_text {
+                width: 26.6vw;
+                height: 6.25vw;
+                background-color: #FFFAEC;
+                border-radius: 2vw;
+            }
+
+            #skillset_text_title {  
+                padding-left: 2vw;     
+                padding-top: 0.5vw;         
+                font-size: 4.2vw;
+                font-family: "Lobster", sans-serif;
+                color: #3D4339;
+            }
+
+            #skillset_framework_container, #skillset_language_container {
+                width: 64.6vw;
+                display: flex;
+                flex-direction: column;
+                gap: 2vw;
+            }
+
+            #skillset_framework_category_container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            #skillset_framework_title, #skillset_language_title {
+                font-size: 2.2vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+
+            .skillset_framework_category {
+                width: 14.3vw;
+                height: 17.3vw;
+                border-radius: 2vw;
+                border-color: #FFFFFF;
+                border-width: 1px;
+                border-style: solid;
+                background-color: rgba(255, 255, 255, 0.05);
+            }
+
+            .skillset_framework_category_title {
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+                margin-top: 2vw;
+                margin-left: 2vw;
+                margin-bottom: 1vw;
+            }
+
+            .skillset_framework_category_content {
+                font-size: 1.7vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                margin-bottom: 0.3vw;
+                margin-left: 2vw;
+            }
+
+            .skillset_language_category {
+                display: flex;
+                flex-direction: row;
+                gap: 1vw;
+                flex-wrap: wrap;
+            }
+
+            .skillset_language_category_content {
+                color: #FFFFFF;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 5vw;
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                padding: 1vw;
+            }
+
+            #skillset_brown_dots{
+                position: absolute;
+                left: -16.8vw;
+                top: -1.4vw;
+                width: 5.5vw;
+                height: 12.7vw;
+                z-index: -1;                
+            }
+
+            #skillset_rice_dots{
+                position: absolute;
+                left: 75.2vw;
+                bottom: -6.7vw;
+                width: 6.1vw;
+                height: 12.7vw;
+                z-index: -1;
+            }
+
+            .work {
+                width: 77.25vw;
+                display: flex;
+                flex-direction: row;
+                gap: 5.8vw;
+                position: relative;
+            }
+
+            .work_image {
+                width: 35.8vw;
+                height: 35.8vw;
+            }
+
+            .work_text {
+                width: 35.6vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .work_text_title {
+                font-size: 4.2vw;
+                font-family: "Lobster", sans-serif;
+                color: #FFFFFF;
+            }
+
+            .work_text_description {
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #FFFFFF;
+                margin-top: 3vw;
+            }
+
+            .work_text_link {
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                color: #FFFFFF;
+                margin-top: 1.7vw;
+            }
+
+            .work_framework_container {
+                display: flex;
+                flex-direction: row;
+                gap: 0.7vw;
+                margin-top: 3vw;
+                flex-wrap: wrap;
+            }
+
+            .work_framework {
+                color: #FFFFFF;
+                background-color: rgba(255, 255, 255, 0.2);
+                border-radius: 5vw;
+                font-size: 1.8vw;
+                font-family: "Ubuntu", sans-serif;
+                padding: 1vw;
+            }
+
+            #clipclip_rice_shortrect {
+                position: absolute;
+                width: 12.5vw;
+                height: 1.1vw;
+                left: -6.1vw;
+                top: -4.9vw;
+                overflow: hidden;
+            }
+
+            #clipclip_brown_rect {
+                position: absolute;
+                width: 24.1vw;
+                height: 1.1vw;
+                left: 19.8vw;
+                bottom: -3.2vw;
+            }
+
+            #textpop_rice_shortrect {
+                position: absolute;
+                width: 24.1vw;
+                height: 1.1vw;
+                left: 45.8vw;
+                top: -8.25vw;
+            }
+
+            #textpop_brown_verticalrect {
+                position: absolute;
+                left: -4.4vw;
+                top: 27.5vw;
+                width: 1.7vw;
+                height: 33.7vw;
+                z-index: -1;
+            }
+
+            #contact {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20.8vw;
+                position: relative;
+            }
+
+            #contact_card {
+                width: 40.7vw;
+                height: 24.25vw;
+            }
+
+            #contact_email {
+                position: absolute;
+                top: 12.3vw;
+                left: 19.5vw;
+                font-size: 1.5vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #524428;
+            }
+
+            #contact_linkedin {
+                position: absolute;
+                top: 15.7vw;
+                left: 19.5vw;
+                font-size: 1.5vw;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: bold;
+                color: #524428;
+            }
+
+            #contact_brown_dots {
+                position: absolute;
+                left: 28.9vw;
+                top: 19.3vw;
+                width: 16vw;
+                height: 12.7vw;
+                z-index: -1; 
+            }
+
+            #contact_top_arrow {
+                position: absolute;
+                left: 60.7vw;
+                top: 33.8vw;
+                width: 3.2vw;
+                height: 3.2vw;
+
+            }
+        }
+
+
+        /* laptop devices */
+        @media only screen and (min-width: 1200px) {
+            
+        }
+    </style>
+</head>
+<body style="background-color: #606C5D; margin: 0px;">
+    <header id="header">
+        <a class="header_nav" href="#about">About</a>
+        <a class="header_nav" href="#skillset">Skillset</a>
+        <a class="header_nav" href="#clipclip">Project 1 - ClipClip</a>
+        <a class="header_nav" href="#textpop">2 - Textpop</a>
+        <a class="header_nav" href="#todolist10">3 - Todolist10</a>
+        <a class="header_nav" href="#contact">Contact</a>
+    </header>
+
+    <div id="section_container">
+        <section id="introduction" class="section">            
+            <img id="introuction_brown_dots" src="brown_dots.png" />
+            <img id="introduction_rice_dots" src="rice_dots.png" />
+            <img id="introduction_rice_verticalrect" src="rice_verticalrect.png" />
+            <img id="introduction_rice_shortrect" src="rice_shortrect.png" />
+
+            <div id="introduction_text">
+                <p id="introduction_text_title">Nice to meet you.</p>
+                <p id="introduction_text_content">My name is John - a full stack developer.</p>
+            </div>
+            <img id="introduction_image" src="profile.png" />
+        </section>
+    
+        <section id="about" class="section">            
+            <img id="about_brown_dots" src="brown_dots.png" />
+            <img id="about_image" />
+            <div id="about_text"> 
+                <p id="about_text_title">About Me</h2>
+                <p id="about_text_content">Aspiring developer proficient in ASP.NET Core, Node.js, React, and Flutter. Eager to explore diverse opportunities with a curious mind and a commitment to learning. Dedicated to creating projects that enhance convenience and empower effective communication and organization.</p>
+            </div>
+        </section>
+           
+        <section id="skillset" class="section">
+            <img id="skillset_brown_dots" src="cropped_brown_dots.png" />
+            <img id="skillset_rice_dots" src="cropped_rice_dots.png" />
+            <div id="skillset_text">
+                <p id="skillset_text_title">Skillset</p>
+            </div>
+            <div id="skillset_framework_container">
+                <p id="skillset_framework_title">FRAMEWORK</p>
+                <div id="skillset_framework_category_container">
+                    <div class="skillset_framework_category">
+                        <p class="skillset_framework_category_title">Web</p>
+                        <p class="skillset_framework_category_content">ASP.NET Core</p>
+                        <p class="skillset_framework_category_content">Node.js</p>
+                        <p class="skillset_framework_category_content">React</p>
+                        <p class="skillset_framework_category_content">jQuery</p>
+                    </div>
+                    <div class="skillset_framework_category">
+                        <p class="skillset_framework_category_title">Mobile</p>
+                        <p class="skillset_framework_category_content">Flutter</p>
+                        <p class="skillset_framework_category_content">.NET MAUI</p>
+                    </div>
+                    <div class="skillset_framework_category">
+                        <p class="skillset_framework_category_title">Database</p>
+                        <p class="skillset_framework_category_content">SQL Server</p>
+                        <p class="skillset_framework_category_content">MongoDB</p>
+                        <p class="skillset_framework_category_content">SQLite</p>
+                    </div>
+                    <div class="skillset_framework_category">
+                        <p class="skillset_framework_category_title">Other</p>
+                        <p class="skillset_framework_category_content">Firebase</p>
+                        <p class="skillset_framework_category_content">Azure</p>
+                        <p class="skillset_framework_category_content">WebRTC</p>
+                        <p class="skillset_framework_category_content">IIS</p>
+                    </div>
+                </div>
+            </div>
+            <div id="skillset_language_container">
+                <p id="skillset_language_title">LANGUAGE</p>
+                <div class="skillset_language_category">
+                    <p class="skillset_language_category_content">C#</p>
+                    <p class="skillset_language_category_content">JavaScript</p>
+                    <p class="skillset_language_category_content">Dart</p>
+                    <p class="skillset_language_category_content">SQL</p>
+                    <p class="skillset_language_category_content">HTML</p>
+                    <p class="skillset_language_category_content">XAML</p>
+                    <p class="skillset_language_category_content">C++</p>
+                    <p class="skillset_language_category_content">Python</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="clipclip" class="section work">
+            <img id="clipclip_rice_shortrect" src="rice_shortrect.png" />
+            <img id="clipclip_brown_rect" src="brown_rect.png" />
+            <div class="work_text">
+                <p class="work_text_title">Project 1 - ClipClip</p>
+                <p class="work_text_description">A Digital whiteboard enabling real-time collaboration</p>
+                <div class="work_text_link">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
+                <div class="work_framework_container">
+                    <p class="work_framework">#Node.js</p>                     
+                    <p class="work_framework">#React</p>   
+                    <p class="work_framework">#MongoDB</p>
+                    <p class="work_framework">#Zoom / Pan / Pin board</p>
+                    <p class="work_framework">#WebSocket</p>                
+                    <p class="work_framework">#Shared editor</p>                                
+                </div>
+            </div>
+            <img class="work_image" src="clipclip1.png" />
+        </section>
+
+        <section id="textpop" class="section work">
+            <img id="textpop_rice_shortrect" src="rice_longrect.png" />
+            <img id="textpop_brown_verticalrect" src="brown_verticalrect.png" />
+            <div class="work_text">
+                <p class="work_text_title">Project 2 - Textpop</p>
+                <p class="work_text_description">A Mobile Application for instant text, media and video communication</p>
+                <div class="work_text_link">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
+                <div class="work_framework_container">                    
+                    <p class="work_framework">#Flutter</p>
+                    <p class="work_framework">#SQLite</p>
+                    <p class="work_framework">#Firebase</p>
+                    <p class="work_framework">#SignalR</p>      
+                    <p class="work_framework">#WebRTC</p>
+                    <p class="work_framework">#ClamAV</p>                    
+                    <p class="work_framework">#Apple / Google Sign-in</p>
+                    <p class="work_framework">#Notification</p>
+                </div>
+            </div>            
+            <img class="work_image" src="textpop1.png" />
+        </section>
+
+        <section id="todolist10" class="section work">
+            <div class="work_text">
+                <p class="work_text_title">Project 3 - Todolist10</p>
+                <p class="work_text_description">A web and mobile application for cross-platform task management</p>
+                <div class="work_text_link">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
+                <div class="work_framework_container">                    
+                    <p class="work_framework">#jQuery</p>
+                    <p class="work_framework">#.NET MAUI</p>                    
+                    <p class="work_framework">#JWTToken</p>      
+                    <p class="work_framework">#ASP.NET Core</p>                     
+                    <p class="work_framework">#Entity framework</p>
+                    <p class="work_framework">#SQL Server</p>
+                    <p class="work_framework">#Email Sign-in / Reset</p> 
+                </div>
+            </div>                          
+            <img class="work_image" src="todolist101.png" />
+        </section>
+    
+        <section id="contact" class="section">
+            <img id="contact_brown_dots" src="brown_dots.png" />
+            <img id="contact_card" src="contact_frontcard.png" />
+            <a id="contact_email" href="mailto:wchjohn1@gmail.com">wchjohn1@gmail.com</a>
+            <a id="contact_linkedin" href="https://www.linkedin.com/in/chun-hong-wong-55991a1a7/">Chun Hong Wong</a>
+            <a href="#"><img id="contact_top_arrow" src="top_arrow.png" /></a>
+        </section>
+    </div>
+    
+    
+
+    <footer>
+
+    </footer>
+</body>
+</html>
