@@ -42,7 +42,7 @@
             font-style: italic;
         }
 
-        /*  devices */
+        /*  mobile devices */
         @media only screen and (max-width: 768px) {
             #header {
                 margin-left: 8.40vw;
@@ -354,36 +354,31 @@
 
             #clipclip_rice_shortrect {
                 position: absolute;
-                width: 12.5vw;
-                height: 1.1vw;
-                left: -6.1vw;
-                top: -4.9vw;
+                width: 30.53vw;
+                height: 2.54vw;
+                left: 0vw;
+                top: -7.63vw;
                 overflow: hidden;
             }
 
             #clipclip_brown_rect {
                 position: absolute;
-                width: 24.1vw;
-                height: 1.1vw;
-                left: 19.8vw;
-                bottom: -3.2vw;
+                width: 60.05vw;
+                height: 2.54vw;
+                left: 31.55vw;
+                bottom: -11.06vw;
             }
 
             #textpop_rice_shortrect {
                 position: absolute;
-                width: 24.1vw;
-                height: 1.1vw;
-                left: 45.8vw;
-                top: -8.25vw;
+                width: 38.93vw;
+                height: 2.54vw;
+                left: -8.40vw;
+                bottom: -22.77vw;
             }
 
             #textpop_brown_verticalrect {
-                position: absolute;
-                left: -4.4vw;
-                top: 27.5vw;
-                width: 1.7vw;
-                height: 33.7vw;
-                z-index: -1;
+                display: none;
             }
 
             #contact {
@@ -394,15 +389,15 @@
             }
 
             #contact_card {
-                width: 40.7vw;
-                height: 24.25vw;
+                width: 83.37vw;
+                height: 49.72vw;
             }
 
             #contact_email {
                 position: absolute;
-                top: 12.3vw;
-                left: 19.5vw;
-                font-size: 1.5vw;
+                top: 24.8vw;
+                left: 39.5vw;
+                font-size: 3.56vw;
                 font-family: "Ubuntu", sans-serif;
                 font-weight: bold;
                 color: #524428;
@@ -410,9 +405,9 @@
 
             #contact_linkedin {
                 position: absolute;
-                top: 15.7vw;
-                left: 19.5vw;
-                font-size: 1.5vw;
+                top: 31.8vw;
+                left: 39.5vw;
+                font-size: 3.56vw;
                 font-family: "Ubuntu", sans-serif;
                 font-weight: bold;
                 color: #524428;
@@ -420,25 +415,29 @@
 
             #contact_brown_dots {
                 position: absolute;
-                left: 28.9vw;
-                top: 19.3vw;
-                width: 16vw;
-                height: 12.7vw;
+                left: -5vw;
+                top: 40.20vw;
+                width: 32.14vw;
+                height: 25.45vw;
                 z-index: -1; 
             }
 
             #contact_top_arrow {
                 position: absolute;
-                left: 60.7vw;
-                top: 33.8vw;
-                width: 3.2vw;
-                height: 3.2vw;
+                left: 73.54vw;
+                top: 55.42vw;
+                width: 9.67vw;
+                height: 9.67vw;
 
+            }
+
+            .desktop {
+                display: none;
             }
         }
 
 
-        /* mobile & tablet devices */
+        /* desktop devices */
         @media only screen and (min-width: 768px) {
             #header {
                 margin-left:10.25vw;
@@ -831,6 +830,11 @@
                 height: 3.2vw;
 
             }
+
+            .mobile {
+                display: none;
+            }
+
         }
 
 
@@ -844,9 +848,7 @@
     <header id="header">
         <a class="header_nav" href="#about">About</a>
         <a class="header_nav" href="#skillset">Skillset</a>
-        <a class="header_nav" href="#clipclip">Project 1 - ClipClip</a>
-        <a class="header_nav" href="#textpop">2 - Textpop</a>
-        <a class="header_nav" href="#todolist10">3 - Todolist10</a>
+        <a class="header_nav" href="#clipclip">Projects</a>
         <a class="header_nav" href="#contact">Contact</a>
     </header>
 
@@ -926,12 +928,15 @@
 
         <section id="clipclip" class="section work">
             <img id="clipclip_rice_shortrect" src="rice_shortrect.png" />
-            <img id="clipclip_brown_rect" src="brown_rect.png" />
+            <img id="clipclip_brown_rect" src="brown_rect.png" />            
+            <img class="work_image desktop" src="clipclip1.png" />
             <div class="work_text">
                 <p class="work_text_title">Project 1 - ClipClip</p>
                 <p class="work_text_description">A Digital whiteboard enabling real-time collaboration</p>
-                <div class="work_text_link">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
-                <div class="work_framework_container">
+
+                <!-- desktop version -->
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
+                <div class="work_framework_container desktop">
                     <p class="work_framework">#Node.js</p>                     
                     <p class="work_framework">#React</p>   
                     <p class="work_framework">#MongoDB</p>
@@ -940,17 +945,30 @@
                     <p class="work_framework">#Shared editor</p>                                
                 </div>
             </div>
-            <img class="work_image" src="clipclip1.png" />
+
+            <!-- mobile version -->
+            <img class="work_image mobile" src="clipclip1.png" />
+            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
+                <div class="work_framework_container mobile">
+                    <p class="work_framework">#Node.js</p>                     
+                    <p class="work_framework">#React</p>   
+                    <p class="work_framework">#MongoDB</p>
+                    <p class="work_framework">#Zoom / Pan / Pin board</p>
+                    <p class="work_framework">#WebSocket</p>                
+                    <p class="work_framework">#Shared editor</p>                                
+                </div>
         </section>
 
         <section id="textpop" class="section work">
-            <img id="textpop_rice_shortrect" src="rice_longrect.png" />
+            <img id="textpop_rice_shortrect" src="rice_shortrect.png" />
             <img id="textpop_brown_verticalrect" src="brown_verticalrect.png" />
             <div class="work_text">
                 <p class="work_text_title">Project 2 - Textpop</p>
                 <p class="work_text_description">A Mobile Application for instant text, media and video communication</p>
-                <div class="work_text_link">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
-                <div class="work_framework_container">                    
+
+                <!-- desktop version -->
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
+                <div class="work_framework_container desktop">                    
                     <p class="work_framework">#Flutter</p>
                     <p class="work_framework">#SQLite</p>
                     <p class="work_framework">#Firebase</p>
@@ -962,14 +980,32 @@
                 </div>
             </div>            
             <img class="work_image" src="textpop1.png" />
+            
+            <!-- mobile version -->
+            <div class="work_framework_container mobile">                    
+                <p class="work_framework">#Flutter</p>
+                <p class="work_framework">#SQLite</p>
+                <p class="work_framework">#Firebase</p>
+                <p class="work_framework">#SignalR</p>      
+                <p class="work_framework">#WebRTC</p>
+                <p class="work_framework">#ClamAV</p>                    
+                <p class="work_framework">#Apple / Google Sign-in</p>
+                <p class="work_framework">#Notification</p>
+            </div>
+            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
         </section>
 
-        <section id="todolist10" class="section work">
+
+        <!--  -->
+        <section id="todolist10" class="section work">            
+            <img class="work_image desktop" src="todolist101.png" />
             <div class="work_text">
                 <p class="work_text_title">Project 3 - Todolist10</p>
                 <p class="work_text_description">A web and mobile application for cross-platform task management</p>
-                <div class="work_text_link">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
-                <div class="work_framework_container">                    
+
+                <!-- desktop version -->
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
+                <div class="work_framework_container desktop">                    
                     <p class="work_framework">#jQuery</p>
                     <p class="work_framework">#.NET MAUI</p>                    
                     <p class="work_framework">#JWTToken</p>      
@@ -978,8 +1014,20 @@
                     <p class="work_framework">#SQL Server</p>
                     <p class="work_framework">#Email Sign-in / Reset</p> 
                 </div>
-            </div>                          
-            <img class="work_image" src="todolist101.png" />
+            </div>   
+            
+            <!-- mobile version -->
+            <img class="work_image mobile" src="todolist101.png" />
+            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
+                <div class="work_framework_container mobile">                    
+                    <p class="work_framework">#jQuery</p>
+                    <p class="work_framework">#.NET MAUI</p>                    
+                    <p class="work_framework">#JWTToken</p>      
+                    <p class="work_framework">#ASP.NET Core</p>                     
+                    <p class="work_framework">#Entity framework</p>
+                    <p class="work_framework">#SQL Server</p>
+                    <p class="work_framework">#Email Sign-in / Reset</p> 
+                </div>
         </section>
     
         <section id="contact" class="section">
