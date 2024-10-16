@@ -17,8 +17,8 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://yourwebsite.com/">
-    <meta name="twitter:title" content="Your Website Title">
+    <meta name="twitter:url" content="https://www.superwch1.com/">
+    <meta name="twitter:title" content="John Wong's portfolio">
     <meta name="twitter:description" content="A brief description of your webpage">
     <meta name="twitter:image" content="https://yourwebsite.com/image.jpg">
 
@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     
-    <title>Your Website Title</title>
+    <title>John Wong's portfolio</title>
     <style>
         body {
             overflow-x: hidden;
@@ -332,14 +332,23 @@
                 font-size: 4.07vw;
                 font-family: "Ubuntu", sans-serif;
                 color: #FFFFFF;
-                margin-top: 6.11vw;
+            }
+
+            .work_text_link_platform {
+                border-radius: 10.18vw;
+                border-style: solid;
+                border-color: #FFFFFF;
+                border-width: 1px;
+                padding: 2.04vw;
+                color: #FFFFFF;
+                font-style: normal;
+                text-decoration: none;
             }
 
             .work_framework_container {
                 display: flex;
                 flex-direction: row;
                 gap: 1.78vw;
-                margin-top: 6.11vw;
                 flex-wrap: wrap;
             }
 
@@ -349,7 +358,7 @@
                 border-radius: 15.23vw;
                 font-size: 4.07vw;
                 font-family: "Ubuntu", sans-serif;
-                padding: 3.05vw;
+                padding: 2.54vw;
             }
 
             #clipclip_rice_shortrect {
@@ -384,7 +393,7 @@
             #contact {
                 display: flex;
                 justify-content: center;
-                margin-bottom: 20.8vw;
+                margin-bottom: 40.8vw;
                 position: relative;
             }
 
@@ -397,7 +406,7 @@
                 position: absolute;
                 top: 24.8vw;
                 left: 39.5vw;
-                font-size: 3.56vw;
+                font-size: 3vw;
                 font-family: "Ubuntu", sans-serif;
                 font-weight: bold;
                 color: #524428;
@@ -405,9 +414,9 @@
 
             #contact_linkedin {
                 position: absolute;
-                top: 31.8vw;
+                top: 32.2vw;
                 left: 39.5vw;
-                font-size: 3.56vw;
+                font-size: 3vw;
                 font-family: "Ubuntu", sans-serif;
                 font-weight: bold;
                 color: #524428;
@@ -425,10 +434,9 @@
             #contact_top_arrow {
                 position: absolute;
                 left: 73.54vw;
-                top: 55.42vw;
+                top: 75.42vw;
                 width: 9.67vw;
                 height: 9.67vw;
-
             }
 
             .desktop {
@@ -730,6 +738,17 @@
                 margin-top: 1.7vw;
             }
 
+            .work_text_link_platform {
+                border-radius: 3.3vw;
+                border-style: solid;
+                border-color: #FFFFFF;
+                border-width: 1px;
+                padding: 0.7vw;
+                color: #FFFFFF;
+                font-style: normal;
+                text-decoration: none;
+            }
+
             .work_framework_container {
                 display: flex;
                 flex-direction: row;
@@ -863,7 +882,7 @@
                 <p id="introduction_text_title">Nice to meet you.</p>
                 <p id="introduction_text_content">My name is John - a full stack developer.</p>
             </div>
-            <img id="introduction_image" src="profile.png" />
+            <img id="introduction_image" src="profile.jpg" />
         </section>
     
         <section id="about" class="section">            
@@ -935,7 +954,7 @@
                 <p class="work_text_description">A Digital whiteboard enabling real-time collaboration</p>
 
                 <!-- desktop version -->
-                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://clipclip.superwch1.com/board/demo">web</a></div>
                 <div class="work_framework_container desktop">
                     <p class="work_framework">#Node.js</p>                     
                     <p class="work_framework">#React</p>   
@@ -948,7 +967,6 @@
 
             <!-- mobile version -->
             <img class="work_image mobile" src="clipclip1.png" />
-            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://clipclip.superwch1.com/board/demo">web</a></div>
                 <div class="work_framework_container mobile">
                     <p class="work_framework">#Node.js</p>                     
                     <p class="work_framework">#React</p>   
@@ -957,6 +975,7 @@
                     <p class="work_framework">#WebSocket</p>                
                     <p class="work_framework">#Shared editor</p>                                
                 </div>
+                <div class="work_text_link mobile">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://clipclip.superwch1.com/board/demo">web</a></div>
         </section>
 
         <section id="textpop" class="section work">
@@ -967,7 +986,7 @@
                 <p class="work_text_description">A Mobile Application for instant text, media and video communication</p>
 
                 <!-- desktop version -->
-                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS</a> &nbsp;<a class="work_text_link_platform" href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
                 <div class="work_framework_container desktop">                    
                     <p class="work_framework">#Flutter</p>
                     <p class="work_framework">#SQLite</p>
@@ -992,11 +1011,11 @@
                 <p class="work_framework">#Apple / Google Sign-in</p>
                 <p class="work_framework">#Notification</p>
             </div>
-            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
+            <div class="work_text_link mobile">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://apps.apple.com/gb/app/textpop/id6463212790">iOS</a> &nbsp;<a class="work_text_link_platform" href="https://play.google.com/store/apps/details?id=com.wch.textpop.android&hl=en_US">android</a></div>
         </section>
 
 
-        <!--  -->
+
         <section id="todolist10" class="section work">            
             <img class="work_image desktop" src="todolist101.png" />
             <div class="work_text">
@@ -1004,7 +1023,7 @@
                 <p class="work_text_description">A web and mobile application for cross-platform task management</p>
 
                 <!-- desktop version -->
-                <div class="work_text_link desktop">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
+                <div class="work_text_link desktop">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS</a> &nbsp;<a class="work_text_link_platform" href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android</a> &nbsp;<a class="work_text_link_platform" href="https://todolist.superwch1.com/Web">web</a></div>
                 <div class="work_framework_container desktop">                    
                     <p class="work_framework">#jQuery</p>
                     <p class="work_framework">#.NET MAUI</p>                    
@@ -1018,7 +1037,6 @@
             
             <!-- mobile version -->
             <img class="work_image mobile" src="todolist101.png" />
-            <div class="work_text_link mobile">→ Try it out &nbsp;<a href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS,</a> <a href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android,</a> <a href="https://todolist.superwch1.com/Web">web</a></div>
                 <div class="work_framework_container mobile">                    
                     <p class="work_framework">#jQuery</p>
                     <p class="work_framework">#.NET MAUI</p>                    
@@ -1028,6 +1046,7 @@
                     <p class="work_framework">#SQL Server</p>
                     <p class="work_framework">#Email Sign-in / Reset</p> 
                 </div>
+                <div class="work_text_link mobile">→ Try it out &nbsp;<a class="work_text_link_platform" href="https://apps.apple.com/gb/app/todolist10/id6473137863">iOS</a> &nbsp;<a class="work_text_link_platform" href="https://play.google.com/store/apps/details?id=com.wch.todolist.android">android</a> &nbsp;<a class="work_text_link_platform" href="https://todolist.superwch1.com/Web">web</a></div>
         </section>
     
         <section id="contact" class="section">
