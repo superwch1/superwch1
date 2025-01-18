@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm John Wong</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h1 align="center">Hello, I'm John Wong</h1>
+<h3 align="center">A passionate developer from United Kingdom</h3>
 
 - 🌱 I’m currently learning **Docker and Nginx**
 
@@ -11,7 +11,8 @@
     </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Programming Langauge:</h3>
+<p align="left">C#, JavaScript, Dart, SQL, XAMLs</p>
 <p align="left">
     <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
