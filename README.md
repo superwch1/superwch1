@@ -27,7 +27,7 @@
 
 <br>
 
-<h1>ClipClip</h1>
+<!-- <h1>ClipClip</h1>
 <img src="https://www.superwch1.com/clipclip1.png" width="400" height="400" />
 
 <h1>Textpop</h1>
@@ -35,6 +35,7 @@
 
 <h1>Todolist10</h1>
 <img src="https://www.superwch1.com/clipclip1.png" width="400" height="400" />
+-->
 
 
 
