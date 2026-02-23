@@ -13,28 +13,29 @@
 <h3>Technology</h3> 
 <img src="https://skillicons.dev/icons?i=azure,firebase,docker,postgres,mongodb,figma" />
 
-<h3>Personal project</h3> 
+<h3>Personal Project</h3> 
 <h4>ItchyPatPat (Web) - Event serach and creation platform (Dec 2025 to now)</h4>
 <a href="https://github.com/superwch1/ItchyPatPat_Backend">ASP.NET repo</a>: ONNX runtime (Machine Learning), Magick.NET, Serilog, Azure Continuous deployment<br />
 <a href="https://github.com/superwch1/ItchyPatPat_Frontend">Flutter repo</a>: GoRouter, Maplibre, Google / Apple signin, Jwt Token
 
-<br />
-<br />
+<br /><br />
 
 <h4><a href="https://ukjobsfinder.com/">JobsFinder (Web) </a> - Job search platform (Mar to Jul 2025)</h4>
 <a href="https://github.com/superwch1/ukjobs_server">ASP.NET repo</a>: PlayWright (Web Scrapping), Geocoding (Google & Geoapify), Xunit & Moq Test, Entity Framework<br />
 <a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design (mobile / tablet / desktop)
 
-<br />
-<br />
+<br /><br />
 
 <h4><a href="https://clipclip.superwch1.com/board/uk">ClipClip (Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h4>
-<a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: yjs (real time collbaration with websocket), mongodb, iisnode<br />
+<a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: yjs (real time collbaration with websocket), MongoDB, iisnode<br />
 <a href="https://github.com/superwch1/clipclip">React repo</a>: text co-editing, create image / website preview, panning & zooming whiteboard
 
-<br />
-<br />
+<br /><br />
 
 <h4>Textpop <a href="https://apps.apple.com/uy/app/textpop/id6463212790">(App Store)</a>, <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android">(Play Store)</a> - Text & video messaging app (Apr to Sep 2024)</h4>
-<a href="https://github.com/superwch1/textpop_server_public">ASP.NET repo</a>: nClam (Virus scanning), SignalR (real time message), entity framework<br />
+<a href="https://github.com/superwch1/textpop_server_public">ASP.NET repo</a>: nClam (Virus scanning), SignalR (real time message), SQL Server<br />
 <a href="https://github.com/superwch1/textpop_public">Flutter repo</a>: firebase notification, WebRTC (video chat)
+
+<br /><br />
+
+<img src="https://readme-stats-fast.vercel.app/api/top-langs/?username=superwch1&layout=compact" width="400px"/>
