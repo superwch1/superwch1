@@ -20,15 +20,15 @@
 
 <br /><br />
 
-<h4><a href="https://ukjobsfinder.com/">JobsFinder (Web) </a> - Job search platform (Mar to Jul 2025)</h4>
+<h4>JobsFinder <a href="https://ukjobsfinder.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h4>
 <a href="https://github.com/superwch1/ukjobs_server">ASP.NET repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
 <a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop
 
 <br /><br />
 
-<h4><a href="https://clipclip.superwch1.com/board/uk">ClipClip (Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h4>
+<h4>ClipClip <a href="https://clipclip.superwch1.com/board/uk">(Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h4>
 <a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: websocket, MongoDB, iisnode<br />
-<a href="https://github.com/superwch1/clipclip">React repo</a>: Text co-editing, create image and website preview, panning & zooming whiteboard
+<a href="https://github.com/superwch1/clipclip">React repo</a>: Text co-editing, image upload and website preview, panning & zooming whiteboard
 
 <br /><br />
 
