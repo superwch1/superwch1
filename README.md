@@ -15,8 +15,8 @@
 
 <h3>Personal Project</h3> 
 <h4>ItchyPatPat (Web) - Event serach and creation platform (Dec 2025 to now)</h4>
-<a href="https://github.com/superwch1/ItchyPatPat_Backend">ASP.NET repo</a>: ONNX runtime (Machine Learning), Magick.NET, Serilog, Azure Continuous deployment<br />
-<a href="https://github.com/superwch1/ItchyPatPat_Frontend">Flutter repo</a>: GoRouter, Maplibre, Google & Apple signin, Jwt Token
+<a href="https://github.com/superwch1/ItchyPatPat_Backend">ASP.NET repo</a>: Semantic search by word embedding, Magick.NET, Serilog, Postgres, Web App Service<br />
+<a href="https://github.com/superwch1/ItchyPatPat_Frontend">Flutter repo</a>: GoRouter, Maplibre, Google & Apple signin, JWT Token
 
 <br /><br />
 
@@ -27,7 +27,7 @@
 <br /><br />
 
 <h4>ClipClip <a href="https://clipclip.superwch1.com/board/uk">(Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h4>
-<a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: websocket, MongoDB, iisnode<br />
+<a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: yjs for websocket provider, MongoDB, iisnode<br />
 <a href="https://github.com/superwch1/clipclip">React repo</a>: Text co-editing, image upload and website preview, panning & zooming whiteboard
 <img src="assets/clipclip-demo.gif" width="600px"/>
 
@@ -35,7 +35,11 @@
 
 <h4>Textpop <a href="https://apps.apple.com/uy/app/textpop/id6463212790">(App Store)</a>, <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android">(Play Store)</a> - Text & video messaging app (Jul 2023 to Feb 2024)</h4>
 <a href="https://github.com/superwch1/textpop_server_public">ASP.NET repo</a>: nClam for virus scanning, SignalR for messaging, SQL Server<br />
-<a href="https://github.com/superwch1/textpop_public">Flutter repo</a>: firebase notification, WebRTC for video chat
+<a href="https://github.com/superwch1/textpop_public">Flutter repo</a>: Firebase notification, WebRTC for video chat
+<img src="assets/textpop-android-1.png" width="150px"/>
+<img src="assets/textpop-android-2.png" width="150px"/>
+<img src="assets/textpop-ios-1.png" width="150px"/>
+<img src="assets/textpop-ios-2.png" width="150px"/>
 
 <br /><br />
 
