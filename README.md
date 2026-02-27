@@ -29,6 +29,7 @@
 <h4>ClipClip <a href="https://clipclip.superwch1.com/board/uk">(Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h4>
 <a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: websocket, MongoDB, iisnode<br />
 <a href="https://github.com/superwch1/clipclip">React repo</a>: Text co-editing, image upload and website preview, panning & zooming whiteboard
+<img src="assets/clipclip-demo.gif" width="600px"/>
 
 <br /><br />
 
