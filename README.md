@@ -22,7 +22,8 @@
 
 <h4>JobsFinder <a href="https://ukjobsfinder.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h4>
 <a href="https://github.com/superwch1/ukjobs_server">ASP.NET repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
-<a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop
+<a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop<br /><br />
+<img src="assets/ukjobs-demo.gif" width="600px"/>
 
 <br /><br />
 
