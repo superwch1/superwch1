@@ -39,7 +39,7 @@ Flutter repo: GoRouter, Maplibre, Google & Apple signin, JWT Token<br /><br />
 <p>
   <img src="assets/textpop-ios-1.png" width="150"/>
   <img src="assets/textpop-ios-2.png" width="150"/>
-  <img src="assets/textpop-android-2.png" width="150"/>
+  <img src="assets/textpop-ios-3.png" width="150"/>
   <img src="assets/textpop-android-1.png" width="150"/>  
 </p>
 
