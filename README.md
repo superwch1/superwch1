@@ -17,12 +17,12 @@
 <br />
 <h3>Personal Project</h3> 
 <h3>ItchyPatPat (Web) - Event serach and creation platform (Dec 2025 to now)</h3>
-<a href="https://github.com/superwch1/ItchyPatPat_Backend">ASP.NET repo</a>: Semantic search by word embedding, Magick.NET, Serilog, Postgres, Web App Service<br />
-<a href="https://github.com/superwch1/ItchyPatPat_Frontend">Flutter repo</a>: GoRouter, Maplibre, Google & Apple signin, JWT Token<br /><br />
+ASP.NET repo: Semantic search by word embedding, Magick.NET, Serilog, Postgres, Web App Service<br />
+Flutter repo: GoRouter, Maplibre, Google & Apple signin, JWT Token<br /><br />
 
 
 <h3>JobsFinder <a href="https://ukjobsfinder.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h3>
-<a href="https://github.com/superwch1/ukjobs_server">ASP.NET repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
+<a href="https://github.com/superwch1/ukjobs_server_public">ASP.NET repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
 <a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop<br /><br />
 <img src="assets/ukjobs-demo.gif" width="600px"/><br />
 
