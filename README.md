@@ -17,25 +17,29 @@
 <br />
 <h3>Personal Project</h3> 
 <h3>ItchyPatPat (Web) - Event serach and creation platform (Dec 2025 to now)</h3>
-ASP.NET repo: Semantic search by word embedding, Magick.NET, Serilog, Postgres, Web App Service<br />
-Flutter repo: GoRouter, Maplibre, Google & Apple signin, JWT Token<br /><br />
+<p>ASP.NET | Flutter | Postgres | Azure Web App</p>
+Backend repo: Semantic search by word embedding, Magick.NET, Serilog, Postgres, Web App Service<br />
+Frontend repo: GoRouter, Maplibre, Google & Apple signin, JWT Token<br /><br />
 
 
 <h3>JobsFinder <a href="https://ukjobsfinder.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h3>
-<a href="https://github.com/superwch1/ukjobs_server_public">ASP.NET repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
-<a href="https://github.com/superwch1/ukjobs">Angular repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop<br /><br />
+<p>ASP.NET | Angular | SQL Server | Azure Virtual Machine</p>
+<a href="https://github.com/superwch1/ukjobs_server_public">Backend repo</a>: PlayWright for web scrapping, Google geocoding, Xunit & Moq Test, Entity Framework<br />
+<a href="https://github.com/superwch1/ukjobs">Frontend repo</a>: OpenStreetMap, Responsive Design for mobile, tablet and desktop<br /><br />
 <img src="assets/ukjobs-demo.gif" width="600px"/><br />
 
 
 <h3>ClipClip <a href="https://clipclip.superwch1.com/board/uk">(Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h3>
-<a href="https://github.com/superwch1/clipclip_server">Node.js repo</a>: yjs for websocket provider, MongoDB, iisnode<br />
-<a href="https://github.com/superwch1/clipclip">React repo</a>: Text co-editing, image upload and website preview, panning & zooming whiteboard<br /><br />
+<p>Express | React | MongoDb | IIS</p>
+<a href="https://github.com/superwch1/clipclip_server">Backend repo</a>: yjs for websocket provider, MongoDB, iisnode<br />
+<a href="https://github.com/superwch1/clipclip">Frontend repo</a>: Text co-editing, image upload and website preview, panning & zooming whiteboard<br /><br />
 <img src="assets/clipclip-demo.gif" width="600px"/><br />
 
 
 <h3>Textpop <a href="https://apps.apple.com/uy/app/textpop/id6463212790">(App Store)</a>, <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android">(Play Store)</a> - Text & video messaging app (Jul 2023 to Feb 2024)</h3>
-<a href="https://github.com/superwch1/textpop_server_public">ASP.NET repo</a>: nClam for virus scanning, SignalR for messaging, SQL Server<br />
-<a href="https://github.com/superwch1/textpop_public">Flutter repo</a>: Firebase notification, WebRTC for video chat<br /><br />
+<p>ASP.NET | Flutter | SQL Server | IIS</p>
+<a href="https://github.com/superwch1/textpop_server_public">Backend repo</a>: nClam for virus scanning, SignalR for messaging, SQL Server<br />
+<a href="https://github.com/superwch1/textpop_public">Frontend repo</a>: Firebase notification, WebRTC for video chat<br /><br />
 <p>
   <img src="assets/textpop-ios-1.png" width="150"/>
   <img src="assets/textpop-ios-2.png" width="150"/>
