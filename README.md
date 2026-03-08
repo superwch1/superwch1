@@ -18,8 +18,8 @@
 <h3>Personal Project</h3> 
 <h3>ItchyPatPat (Web) - Event serach and creation platform (Dec 2025 to now)</h3>
 <p>ASP.NET | Flutter | Postgres | OpenAI API | Azure Web App</p>
-Backend repo: Semantic search with ONNX Runtime, Magick.NET for image processing, Serilog for diaglostic logging<br />
-Frontend repo: GoRouter in mobile and web navigation, Maplibre with OpenStreetVector tile, JWT Token for authenication<br /><br />
+Backend repo: Semantic search with ONNX, Magick.NET for image processing, Serilog for logging<br />
+Frontend repo: page navigation with GoRouter, Maplibre with OpenStreetVector vector tile, JWT authenication<br /><br />
 
 
 <h3>JobsFinder <a href="https://ukjobsfinder.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h3>
@@ -31,15 +31,15 @@ Frontend repo: GoRouter in mobile and web navigation, Maplibre with OpenStreetVe
 
 <h3>ClipClip <a href="https://clipclip.superwch1.com/board/uk">(Web) </a> - Real time collaboration whiteboard (Apr to Sep 2024)</h3>
 <p>Express | React |  yjs (WebSocket) | MongoDb | Internet Information Services</p>
-<a href="https://github.com/superwch1/clipclip_server">Backend repo</a>: yjs for websocket provider, MongoDB, iisnode<br />
+<a href="https://github.com/superwch1/clipclip_server">Backend repo</a>: iisnode for IIS deployment and real time collabration using yjs<br />
 <a href="https://github.com/superwch1/clipclip">Frontend repo</a>: Real time collaborative editing across text, images and web embedded previews<br /><br />
 <img src="assets/clipclip-demo.gif" width="600px"/><br />
 
 
-<h3>Textpop <a href="https://apps.apple.com/uy/app/textpop/id6463212790">(App Store)</a>, <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android">(Play Store)</a> - Messaging app with text and video chat (Jul 2023 to Feb 2024)</h3>
+<h3>Textpop <a href="https://apps.apple.com/uy/app/textpop/id6463212790">(App Store)</a>, <a href="https://play.google.com/store/apps/details?id=com.wch.textpop.android">(Play Store)</a> - Messaging with text & video chat (Jul 2023 to Feb 2024)</h3>
 <p>ASP.NET | Flutter | SignalR | Firebase | SQL Server | Internet Information Services</p>
 <a href="https://github.com/superwch1/textpop_server_public">Backend repo</a>: nClam for virus scanning and real time messaging with SignalR<br />
-<a href="https://github.com/superwch1/textpop_public">Frontend repo</a>: Push notification for iOS and Android, video chat functionality<br /><br />
+<a href="https://github.com/superwch1/textpop_public">Frontend repo</a>: Push notification for iOS and Android, messaging support text, image and video chat<br /><br />
 <p>
   <img src="assets/textpop-ios-1.png" width="150"/>
   <img src="assets/textpop-ios-2.png" width="150"/>
