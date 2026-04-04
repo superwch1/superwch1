@@ -22,7 +22,7 @@ Backend repo: Semantic search with ONNX, Magick.NET for image processing, Serilo
 Frontend repo: page navigation with GoRouter, Maplibre with OpenStreetVector vector tile, JWT authenication<br /><br />
 
 
-<h3>JobsFinder <a href="https://ukjobsfinder.superwch1.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h3>
+<h3>JobsFinder <a href="https://ukjobs.superwch1.com/">(Web) </a> - Job search platform (Mar to Jul 2025)</h3>
 <p>ASP.NET | Angular | SQL Server | Geocoding | Azure Virtual Machine</p>
 <a href="https://github.com/superwch1/ukjobs_server_public">Backend repo</a>: PlayWright for web scrapping (10,000 unique jobs per run), Unit test using Xunit and Moq<br />
 <a href="https://github.com/superwch1/ukjobs">Frontend repo</a>: Displayed vacancy on integrated OpenStreetMap, Responsive Design for mobile, tablet and desktop<br /><br />
